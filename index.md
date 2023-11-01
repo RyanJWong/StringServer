@@ -5,7 +5,7 @@
 2. ![Image](add-message1.png)
     > Here, the handleRequest method is being called, whcih expects a url argument. The url being passed is "/add-message?s=How are you". It needs the url as the method needs to know the path that is being requested, so it can then parse it and perform any actions depending on the path. In this case, resulting in both the int num and string text values being altered. The num value is being incremented to 2 while the text value is adding "How are you" as well as new line to it.
 3. 2. ![Image](add-message-2.png)
-    > Here, the handleRequest method is being called, whcih expects a url argument. The url being passed is "/add-message?s=My name is Ryan". It needs the url as the method needs to know the path that is being requested, so it can then parse it and perform any actions depending on the path. In this case, resulting in both the int num and string text values being altered. The num value is being incremented to 3 while the text value is adding "My name is RYan" as well as new line to it.
+    > Here, the handleRequest method is being called, which expects a url argument. The url being passed is "/add-message?s=My name is Ryan". The url variable is expected by the handleRequest method. It needs the url as the method needs to know the path that is being requested, so it can then parse it and perform any actions depending on the path. In this case, resulting in both the int num and string text values being altered. The num value is being incremented to 3 while the text value is adding "My name is Ryan" as well as new line to it. I modified the program so that text variable is concatenated by the user's input. The url, num, and text are all variables from the program being altered.
 
 ## SSH
 1. ![Image](private.png)
